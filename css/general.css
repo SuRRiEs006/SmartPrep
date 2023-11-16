@@ -1,7 +1,4 @@
-@font-face {
-    font-family: Agbalumo;
-    src: url(Agbalumo-Regular.ttf);
-  }
+
 
   @font-face {
     font-family: PlayPenSans;
@@ -11,14 +8,13 @@
     font-family: Rubik;
     src: url(Rubik.ttf);
   }
-nav{
-    font-family: Agbalumo;
-    font-size: 40px;
+
+h2 {
+    font-family: Rubik;
 
 }
-h2 {
-    font-family: Agbalumo;
-    color: darkgreen;
+p{
+  font-family: Rubik;
 }
 body {
     /* background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.308), rgba(0, 0, 0, 0.822)); */
@@ -26,5 +22,52 @@ body {
     height: auto;
     background-attachment: fixed;
     background-size: cover;
+    overflow-y: hidden;
+}
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+    font-family: Rubik;
+    
 }
 
+a {
+  text-decoration: none;
+  /* no underline */
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+.headerAlert {
+  text-align: center;
+  height: auto;
+  background-color: rgba(40, 97, 17, 0.671);
+  padding-bottom: 2px;
+
+}
+
+.headerAlertText {
+  color: white;
+  font-family: Rubik;
+  padding-top: 7px;
+}
+
+.divCenter {
+  text-align: center
+}
+
+.subHeadings {
+  font-family: Rubik;
+  color: #F5F5F5;
+  padding-left: 20px;
+  padding-top: 10px;
+  text-transform: uppercase;
+  font-weight: normal;
+  text-align: center;
+
+}
